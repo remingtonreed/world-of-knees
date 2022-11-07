@@ -1,3 +1,20 @@
+/* header logo */
+header .nav-brand p {
+  background: url(./images/world-of-knees-logo.svg) no-repeat contain;
+  height: 70px;
+  width: 144px;
+}
+
+header .nav-brand a:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
 /* header and nav layout */
 header nav {
   display: grid;
